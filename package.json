@@ -25,7 +25,7 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.44.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.86",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.87",
 		"@ctx-core/dom": "workspace:^11.0.40",
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/etsy_cache": "workspace:^11.0.0",
