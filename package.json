@@ -1,14 +1,14 @@
 {
 	"name": "@ctx-core/etsy_cache-ui-svelte",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "cache data for an etsy account",
 	"author": "Brian Takit",
 	"homepage": "https://github.com/ctx-core/etsy_cache-ui-svelte#readme",
 	"type": "module",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
 	},
@@ -17,25 +17,26 @@
 	},
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rimraf dist",
+		"clean": "rimraf dist && npm run clean_tsbuildinfo",
+		"clean_tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
 		"compile": "npm run compile_source && npm run compile_declaration",
 		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
-		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
+		"compile_declaration": "npm run clean_tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build",
 		"start": "./bin/cache-etsy.mjs"
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.44.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.91",
-		"@ctx-core/dom": "workspace:^11.0.44",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.92",
+		"@ctx-core/dom": "workspace:^11.0.45",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/etsy_cache": "workspace:^11.0.5",
-		"@ctx-core/fetch": "workspace:^11.0.97",
-		"@ctx-core/function": "workspace:^20.2.16",
-		"@ctx-core/object": "workspace:^22.0.4",
-		"@ctx-core/sleep": "workspace:^8.0.28",
-		"@ctx-core/store": "workspace:^27.0.51"
+		"@ctx-core/etsy_cache": "workspace:^11.0.6",
+		"@ctx-core/fetch": "workspace:^11.0.98",
+		"@ctx-core/function": "workspace:^20.2.17",
+		"@ctx-core/object": "workspace:^22.0.5",
+		"@ctx-core/sleep": "workspace:^8.0.29",
+		"@ctx-core/store": "workspace:^27.0.52"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
