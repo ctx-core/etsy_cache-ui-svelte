@@ -1,5 +1,20 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.0.12
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/dom@11.0.48
+  - @ctx-core/etsy_cache@11.0.9
+  - @ctx-core/fetch@11.0.101
+  - @ctx-core/function@20.2.20
+  - @ctx-core/object@22.0.8
+  - @ctx-core/sleep@8.0.32
+  - @ctx-core/store@27.0.55
+  - @ctx-core/ctx-core-package-tools@8.0.95
+
 ## 1.0.11
 
 ### Patch Changes
