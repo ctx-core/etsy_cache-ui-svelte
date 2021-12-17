@@ -1,5 +1,20 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.0.9
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/dom@11.0.46
+  - @ctx-core/etsy_cache@11.0.7
+  - @ctx-core/fetch@11.0.99
+  - @ctx-core/function@20.2.18
+  - @ctx-core/object@22.0.6
+  - @ctx-core/sleep@8.0.30
+  - @ctx-core/store@27.0.53
+  - @ctx-core/ctx-core-package-tools@8.0.93
+
 ## 1.0.8
 
 ### Patch Changes
