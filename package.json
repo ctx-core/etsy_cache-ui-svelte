@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache-ui-svelte",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"description": "cache data for an etsy account",
 	"author": "Brian Takit",
 	"homepage": "https://github.com/ctx-core/etsy_cache-ui-svelte#readme",
@@ -28,15 +28,15 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.44.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.93",
-		"@ctx-core/dom": "workspace:^11.0.46",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.94",
+		"@ctx-core/dom": "workspace:^11.0.47",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/etsy_cache": "workspace:^11.0.7",
-		"@ctx-core/fetch": "workspace:^11.0.99",
-		"@ctx-core/function": "workspace:^20.2.18",
-		"@ctx-core/object": "workspace:^22.0.6",
-		"@ctx-core/sleep": "workspace:^8.0.30",
-		"@ctx-core/store": "workspace:^27.0.53"
+		"@ctx-core/etsy_cache": "workspace:^11.0.8",
+		"@ctx-core/fetch": "workspace:^11.0.100",
+		"@ctx-core/function": "workspace:^20.2.19",
+		"@ctx-core/object": "workspace:^22.0.7",
+		"@ctx-core/sleep": "workspace:^8.0.31",
+		"@ctx-core/store": "workspace:^27.0.54"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",

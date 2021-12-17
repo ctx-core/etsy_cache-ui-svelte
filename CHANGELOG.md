@@ -1,5 +1,20 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.0.10
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/dom@11.0.47
+  - @ctx-core/etsy_cache@11.0.8
+  - @ctx-core/fetch@11.0.100
+  - @ctx-core/function@20.2.19
+  - @ctx-core/object@22.0.7
+  - @ctx-core/sleep@8.0.31
+  - @ctx-core/store@27.0.54
+  - @ctx-core/ctx-core-package-tools@8.0.94
+
 ## 1.0.9
 
 ### Patch Changes
