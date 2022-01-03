@@ -31,7 +31,7 @@
 		"@ctx-core/dom": "workspace:^11.1.2",
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/etsy_cache": "workspace:^12.0.6",
-		"@ctx-core/fetch": "workspace:^11.0.104",
+		"@ctx-core/fetch": "workspace:^11.0.105",
 		"@ctx-core/function": "workspace:^20.2.21",
 		"@ctx-core/object": "workspace:^22.0.8",
 		"@ctx-core/sleep": "workspace:^8.0.33",
