@@ -1,9 +1,9 @@
 <script lang="ts">
 import type { s3_etsy_listing_a$_T, s3_etsy_listing_image_a$_T } from '@ctx-core/etsy_cache'
-import { s3_etsy_listing_a$_b, s3_etsy_listing_image_a$_b } from '@ctx-core/etsy_cache'
+import { s3_etsy_listing_a$_, s3_etsy_listing_image_a$_ } from '@ctx-core/etsy_cache'
 export let ctx
-const s3_etsy_listing_a$:s3_etsy_listing_a$_T = s3_etsy_listing_a$_b(ctx)
-const s3_etsy_listing_image_a$:s3_etsy_listing_image_a$_T = s3_etsy_listing_image_a$_b(ctx)
+const s3_etsy_listing_a$:s3_etsy_listing_a$_T = s3_etsy_listing_a$_(ctx)
+const s3_etsy_listing_image_a$:s3_etsy_listing_image_a$_T = s3_etsy_listing_image_a$_(ctx)
 </script>
 
 <div class="Etsy_Store">
