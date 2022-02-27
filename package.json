@@ -27,7 +27,7 @@
 		"start": "./bin/cache-etsy.mjs"
 	},
 	"dependencies": {
-		"@aws-sdk/client-s3": "^3.53.0",
+		"@aws-sdk/client-s3": "^3.53.1",
 		"@ctx-core/dom": "^11.1.7",
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/etsy_cache": "^14.0.16",
