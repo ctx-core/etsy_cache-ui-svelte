@@ -27,7 +27,7 @@
 		"start": "./bin/cache-etsy.mjs"
 	},
 	"dependencies": {
-		"@aws-sdk/client-s3": "^3.54.1",
+		"@aws-sdk/client-s3": "^3.55.0",
 		"@ctx-core/dom": "^11.1.8",
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/etsy_cache": "^14.0.26",
@@ -40,7 +40,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-		"@swc/cli": "^0.1.55",
+		"@swc/cli": "^0.1.56",
 		"@swc/core": "^1.2.159",
 		"rimraf": "^3.0.2",
 		"svelte": "^3.46.4",
