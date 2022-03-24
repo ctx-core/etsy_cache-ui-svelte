@@ -35,7 +35,7 @@
 		"@ctx-core/function": "^20.6.0",
 		"@ctx-core/object": "^22.1.3",
 		"@ctx-core/sleep": "^8.0.36",
-		"@ctx-core/svelte": "^10.1.9"
+		"@ctx-core/svelte": "^10.1.10"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
