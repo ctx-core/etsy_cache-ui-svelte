@@ -28,7 +28,7 @@
 		"@aws-sdk/client-s3": "^3.95.0",
 		"@ctx-core/dom": "^11.1.19",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/etsy_cache": "^14.0.60",
+		"@ctx-core/etsy_cache": "^14.0.61",
 		"@ctx-core/fetch-undici": "^2.1.10",
 		"@ctx-core/function": "^20.8.0",
 		"@ctx-core/object": "^22.1.10",
