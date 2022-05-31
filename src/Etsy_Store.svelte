@@ -1,18 +1,18 @@
 <script lang="ts">
-import type { s3_etsy_listing_a$_T, s3_etsy_listing_image_a$_T } from '@ctx-core/etsy_cache'
-import { s3_etsy_listing_a$_, s3_etsy_listing_image_a$_ } from '@ctx-core/etsy_cache'
+import type { s3_etsy_listing_image_a__T } from '@ctx-core/etsy_cache'
+import { etsy_listing_T, s3_etsy_listing_a__, s3_etsy_listing_image_a__ } from '@ctx-core/etsy_cache'
 export let ctx
-const s3_etsy_listing_a$:s3_etsy_listing_a$_T = s3_etsy_listing_a$_(ctx)
-const s3_etsy_listing_image_a$:s3_etsy_listing_image_a$_T = s3_etsy_listing_image_a$_(ctx)
+const s3_etsy_listing_a_:ReadableAtom_<etsy_listing_T[]|undefined> = s3_etsy_listing_a__(ctx)
+const s3_etsy_listing_image_a_:s3_etsy_listing_image_a__T = s3_etsy_listing_image_a__(ctx)
 </script>
 
 <div class="Etsy_Store">
-	{#each $s3_etsy_listing_a$||[] as s3_etsy_listing, i}
+	{#each $s3_etsy_listing_a_||[] as s3_etsy_listing, i}
 		<div class="listing" title="{s3_etsy_listing.description}">
 			<div class="img-container">
-				{#if $s3_etsy_listing_image_a$[i].url_75x75}
+				{#if $s3_etsy_listing_image_a_[i].url_75x75}
 					<img
-						src="{$s3_etsy_listing_image_a$[i].url_75x75}"
+						src="{$s3_etsy_listing_image_a_[i].url_75x75}"
 						alt="{s3_etsy_listing.description}"
 					>
 				{/if}
