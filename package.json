@@ -30,7 +30,7 @@
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/etsy_cache": "^14.1.7",
 		"@ctx-core/fetch-undici": "^2.2.1",
-		"@ctx-core/function": "^20.8.0",
+		"@ctx-core/function": "^20.8.1",
 		"@ctx-core/object": "^22.2.1",
 		"@ctx-core/sleep": "^8.0.37",
 		"@ctx-core/svelte": "^10.2.2"
@@ -39,7 +39,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.203",
+		"@swc/core": "^1.2.204",
 		"rimraf": "^3.0.2",
 		"svelte": "^3.48.0",
 		"svelte-preprocess": "^4.10.7",
