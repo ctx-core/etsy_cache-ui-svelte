@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.2.10
+
+### Patch Changes
+
+- fix: author: Brian Takita
+- Updated dependencies
+  - @ctx-core/etsy_cache@14.1.10
+
 ## 1.2.9
 
 ### Patch Changes
