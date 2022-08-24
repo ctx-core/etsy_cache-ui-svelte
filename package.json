@@ -29,7 +29,7 @@
 		"@ctx-core/dom": "^11.1.26",
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/etsy_cache": "^14.1.32",
-		"@ctx-core/fetch-undici": "^2.3.3",
+		"@ctx-core/fetch-undici": "^2.3.4",
 		"@ctx-core/function": "^21.0.0",
 		"@ctx-core/object": "^22.2.6",
 		"@ctx-core/sleep": "^8.0.37",
