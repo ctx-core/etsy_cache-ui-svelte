@@ -30,7 +30,7 @@
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/etsy_cache": "^14.1.46",
 		"@ctx-core/fetch-undici": "^2.3.5",
-		"@ctx-core/function": "^21.3.0",
+		"@ctx-core/function": "^21.4.0",
 		"@ctx-core/object": "^22.2.8",
 		"@ctx-core/sleep": "^8.0.37",
 		"@ctx-core/svelte": "^13.0.3"
