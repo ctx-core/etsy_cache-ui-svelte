@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.2.94
+
+### Patch Changes
+
+- svelte-preprocess: ^4.10.7 -> ^5.0.0
+
 ## 1.2.93
 
 ### Patch Changes
