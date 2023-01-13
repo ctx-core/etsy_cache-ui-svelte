@@ -1,5 +1,20 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.2.140
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/etsy_cache@14.1.120
+  - @ctx-core/fetch-undici@2.3.45
+  - @ctx-core/dom@11.2.20
+  - @ctx-core/sleep@8.0.39
+
 ## 1.2.139
 
 ### Patch Changes
