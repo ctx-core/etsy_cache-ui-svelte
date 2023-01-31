@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.2.162
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/dom@11.2.25
+  - @ctx-core/etsy_cache@14.1.140
+  - @ctx-core/fetch-undici@2.3.57
+  - @ctx-core/function@21.6.1
+  - @ctx-core/object@24.1.1
+  - @ctx-core/sleep@8.0.40
+  - @ctx-core/svelte@13.4.20
+
 ## 1.2.161
 
 ### Patch Changes
