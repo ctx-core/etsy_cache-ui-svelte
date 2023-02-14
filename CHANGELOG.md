@@ -1,5 +1,18 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.3.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/etsy_cache@15.0.0
+
 ## 1.2.192
 
 ### Patch Changes
