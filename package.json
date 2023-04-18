@@ -26,8 +26,8 @@
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/etsy_cache": "^15.0.171",
 		"@ctx-core/fetch-undici": "^2.6.17",
-		"@ctx-core/function": "^21.17.0",
-		"@ctx-core/object": "^27.4.4",
+		"@ctx-core/function": "^21.17.12",
+		"@ctx-core/object": "^27.4.16",
 		"@ctx-core/sleep": "^8.1.0",
 		"@ctx-core/svelte": "^13.4.67",
 		"svelte": "^3.58.0"
