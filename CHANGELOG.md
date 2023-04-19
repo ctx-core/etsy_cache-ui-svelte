@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.3.194
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/dom@14.1.31
+  - @ctx-core/etsy_cache@15.0.191
+  - @ctx-core/fetch-undici@2.6.36
+  - @ctx-core/function@21.17.19
+  - @ctx-core/object@27.4.23
+  - @ctx-core/sleep@8.1.19
+  - @ctx-core/svelte@13.4.86
+
 ## 1.3.193
 
 ### Patch Changes
