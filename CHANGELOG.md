@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.3.247
+
+### Patch Changes
+
+- @ctx-core/svelte: ^13.6.0 -> ^13.6.1
+
 ## 1.3.246
 
 ### Patch Changes
