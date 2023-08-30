@@ -2,7 +2,7 @@
 import { s3__etsy_listing_a__, s3__etsy_listing_image_a__ } from '@ctx-core/etsy_cache'
 export let ctx
 const s3__etsy_listing_a_ = s3__etsy_listing_a__(ctx)
-const s3__etsy_listing_image_a_ = s3__etsy_listing_image_a__(ctx)
+const s3__etsy_listing_image_a__new = s3__etsy_listing_image_a__(ctx)
 </script>
 
 <div class="Etsy_Store">
