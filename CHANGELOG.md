@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.3.382
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^3.0.11 -> ^3.0.12
+- Updated dependencies
+  - @ctx-core/etsy_cache@16.0.38
+
 ## 1.3.381
 
 ### Patch Changes
