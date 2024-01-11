@@ -1,5 +1,18 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.4.160
+
+### Patch Changes
+
+- ctx-core: ^5.17.0 -> ^5.17.1
+- @aws-sdk/client-s3: ^3.489.0 -> ^3.490.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@15.2.15
+  - @ctx-core/etsy_cache@16.1.158
+  - @ctx-core/fetch-undici@3.1.136
+  - @ctx-core/svelte@16.0.28
+
 ## 1.4.159
 
 ### Patch Changes
