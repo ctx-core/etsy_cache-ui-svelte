@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.4.195
+
+### Patch Changes
+
+- @ctx-core/etsy_cache: ^16.1.188 -> ^16.1.189
+
 ## 1.4.194
 
 ### Patch Changes
