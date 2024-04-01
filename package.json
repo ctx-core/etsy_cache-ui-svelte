@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache-ui-svelte",
-	"version": "1.4.292",
+	"version": "1.4.293",
 	"description": "cache data for an etsy account",
 	"author": {
 		"name": "Brian Takita",
@@ -33,10 +33,10 @@
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.540.0",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/etsy_cache": "^16.1.272",
-		"@ctx-core/fetch-undici": "^3.1.241",
-		"@ctx-core/svelte": "^16.0.116",
-		"ctx-core": "^6.8.3",
+		"@ctx-core/etsy_cache": "^16.1.273",
+		"@ctx-core/fetch-undici": "^3.1.242",
+		"@ctx-core/svelte": "^16.0.117",
+		"ctx-core": "^6.9.0",
 		"svelte": "^4.2.12"
 	},
 	"devDependencies": {
