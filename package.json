@@ -31,18 +31,18 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@aws-sdk/client-s3": "^3.637.0",
+		"@aws-sdk/client-s3": "^3.926.0",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/etsy_cache": "^16.1.338",
-		"@ctx-core/fetch-undici": "^3.1.297",
-		"@ctx-core/svelte": "^16.0.162",
-		"ctx-core": "^7.2.32",
-		"svelte": "^4.2.19"
+		"@ctx-core/etsy_cache": "*",
+		"@ctx-core/fetch-undici": "*",
+		"@ctx-core/svelte": "*",
+		"ctx-core": "*",
+		"svelte": "^4.2.20"
 	},
 	"devDependencies": {
-		"c8": "^10.1.2",
+		"c8": "^10.1.3",
 		"check-dts": "^0.8.2",
-		"tsx": "^4.19.0",
+		"tsx": "^4.20.6",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
