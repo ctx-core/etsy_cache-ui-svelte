@@ -1,5 +1,16 @@
 # @ctx-core/etsy_cache-ui-svelte
 
+## 1.4.389
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/etsy_cache@16.1.340
+  - @ctx-core/fetch-undici@3.1.299
+  - @ctx-core/svelte@16.0.164
+
 ## 1.4.388
 
 ### Patch Changes

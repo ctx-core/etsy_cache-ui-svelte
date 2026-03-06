@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache-ui-svelte",
-	"version": "1.4.388",
+	"version": "1.4.389",
 	"description": "cache data for an etsy account",
 	"author": {
 		"name": "Brian Takita",
